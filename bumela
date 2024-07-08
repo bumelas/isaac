@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumela's Group Company Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Bumela's Group Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#agrovet">Agrovet</a></li>
+                <li><a href="#beverage">Beverage</a></li>
+                <li><a href="#finance">Finance</a></li>
+                <li><a href="#logistic">Logistic</a></li>
+                <li><a href="#realestate">Real Estate</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#mining">Mining</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="overlay">
+            <h1>Welcome to Bumela's Group Company Ltd</h1>
+            <p>Leading Diversified Conglomerate in East Africa</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Bumela's Group Company Ltd</h2>
+            <p>Bumela's Group Company Limited is a dynamic conglomerate based in the Tanga region of Tanzania, specializing in a diverse range of industries and services. Founded by Mr. Isaac Mwakilasa, the current Chief Executive Officer and Managing Director, Bumela's Group originated as a family-owned enterprise driven by entrepreneurial spirit and a commitment to economic growth and development in Tanzania.</p>
+            
+            <h3>Our Vision</h3>
+            <p>Our vision is to become the foremost choice for our customers, offering swift and top-notch services that effectively meet their needs across various sectors.</p>
+            
+            <h3>Our Mission</h3>
+            <p>At Bumela's Group, we are guided by a clear vision and unwavering dedication to establish ourselves as key players in the industry. We aim to achieve sustainable profitability that ensures the long-term financial health and stability of our company, paving the way for our evolution into a leading conglomerate.</p>
+            
+            <h3>Corporate Details</h3>
+            <p>Bumela's Group Company Ltd operates under the regulations stipulated in the Companies Act No. 12 of 2002 (Cap 212) and is registered with the Business Registrations and Licensing Agency (BRELA). Our company holds a certificate of incorporation numbered 164537404, issued on March 22, 2023. Additionally, we are a registered taxpayer with Taxpayer Identification Number (TIN) 164-537-404 and VAT registered under VAT Registration Number (VRN) 40-313277-L. Bumela's Group has obtained licenses from Tanga city and the Ministry of Energy and Minerals to conduct mining activities and operate as a mining broker, respectively.</p>
+            
+            <h3>Location</h3>
+            <p>Our headquarters are strategically located in the heart of Tanga city, specifically on Pongwe Street, Maweni ward, postal code 21206, Tanzania.</p>
+            
+            <h3>Strategic Focus</h3>
+            <p>Bumela's Group Company Limited focuses on delivering high-quality products and services across various sectors, including Agrovet, Beverage, Finance, Logistic, Real Estate, Industries, and Mining. Each sector is carefully managed to ensure excellence and customer satisfaction.</p>
+        </section>
+
+        <section id="agrovet" class="section">
+            <h2>Bumela's Group Agrovet</h2>
+            <p>Our Agrovet section focuses on sustainable agricultural practices and products.</p>
+        </section>
+
+        <section id="beverage" class="section">
+            <h2>Bumela's Group Beverage</h2>
+            <p>We produce high-quality beverages including soft drinks and mineral water.</p>
+        </section>
+
+        <section id="finance" class="section">
+            <h2>Bumela's Group Finance</h2>
+            <p>Providing financial services and investment opportunities to help grow your wealth.</p>
+        </section>
+
+        <section id="logistic" class="section">
+            <h2>Bumela's Group Logistic</h2>
+            <p>Efficient logistics solutions for transportation and warehousing needs.</p>
+        </section>
+
+        <section id="realestate" class="section">
+            <h2>Bumela's Group Real Estate</h2>
+            <p>Developing and selling prime real estate properties.</p>
+        </section>
+
+        <section id="industries" class="section">
+            <h2>Bumela's Group Industries</h2>
+            <p>Advanced manufacturing capabilities for various industrial products.</p>
+        </section>
+
+        <section id="mining" class="section">
+            <h2>Bumela's Group Mining</h2>
+            <p>Responsible mining practices to extract and process minerals.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please contact us at info@bumelasgroup.com or call +255 674 000 553.</p>
+            <p>Contact Information:<br>
+               Address: Bumela's Group Company Ltd<br>
+               P.O. Box 2411<br>
+               Pongwe Street<br>
+               Tanga, Tanzania<br>
+               Postal Code: 21206<br>
+               Email: info@bumelasgroup.com<br>
+               Phone: +255 674 000 553<br>
+               Website: www.bumelasgroup.com
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bumela's Group Company Ltd. All rights reserved.</p>
+        <p>Follow us on <a href="#" style="color: white;">LinkedIn</a>, <a href="#" style="color: white;">Facebook</a>, <a href="#" style="color: white;">Twitter</a></p>
+    </footer>
+</body>
+</html>
+"""
+
+# CSS content
+css_content = """
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    width: 150px; /* Adjust the size as needed */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.hero {
+    position: relative;
+    background: url('hero-bg.jpg') no-repeat center center/cover; /* Full-width hero image */
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid #333;
+    margin-bottom: 10px;
+}
+
+.section p {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width
